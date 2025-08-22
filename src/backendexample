@@ -1,0 +1,40 @@
+backend/
+├── config/               # Configuration files (e.g., database, environment variables)
+│   ├── db.js             # Database configuration and connection
+│   └── env.js            # Environment variables configuration
+├── controllers/          # Controllers for handling business logic
+│   ├── accessoriesController.js
+│   ├── booksController.js
+│   ├── cameraController.js
+│   ├── egrToolsController.js
+│   ├── gadgetsController.js
+│   ├── notesController.js
+│   ├── sportsItemsController.js
+│   └── userController.js
+├── middlewares/          # Custom middleware (e.g., authentication, error handling)
+│   ├── authMiddleware.js
+│   └── errorHandler.js
+├── models/               # Database models or schemas
+│   ├── accessoriesModel.js
+│   ├── booksModel.js
+│   ├── cameraModel.js
+│   ├── egrToolsModel.js
+│   ├── gadgetsModel.js
+│   ├── notesModel.js
+│   ├── sportsItemsModel.js
+│   └── userModel.js
+├── routes/               # Define the routes for different sections of the site
+│   ├── accessoriesRoutes.js
+│   ├── booksRoutes.js
+│   ├── cameraRoutes.js
+│   ├── egrToolsRoutes.js
+│   ├── gadgetsRoutes.js
+│   ├── notesRoutes.js
+│   ├── sportsItemsRoutes.js
+│   └── userRoutes.js
+├── utils/                # Utility functions and helpers
+│   ├── logger.js         # Logging utility
+│   └── response.js       # Response formatting
+├── app.js                # Main application file
+├── server.js             # Server configuration and start script
+└── package.json          # Project metadata and dependencies
